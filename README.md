@@ -68,3 +68,30 @@ VK_TOKEN = 'your_vk_bot_token'
 GROUP_ID = 'your_vk_group_id'
 YOUTUBE_API_KEY = 'your_youtube_api_key'
 MY_USER_ID = your_vk_user_id
+
+4.Run the bot or configure it as a systemd service
+
+Security Notes
+
+API keys are stored directly in the code
+
+Do NOT publish real tokens in public repositories
+
+If tokens are compromised, revoke and regenerate them immediately
+
+Limitations
+
+Not intended for public or multi-user access
+
+No rate limiting beyond API limits
+
+Depends on YouTube availability and yt-dlp updates
+
+License
+
+MIT License
+
+Author
+
+Developed as a personal automation and learning project.
+Implementation includes AI-assisted coding.
